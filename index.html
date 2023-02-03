@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,91 @@
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>Hello Word from Ksiu</h1>
-        <img src="img/fox.jpg" alt="Fox">
-    </header>
-    <main>
+<header id="home">
+    <nav>
+        <div class="logo">
+            <img width="100" src="" alt="">
+        </div>
+        <div class="menu">
+            <a href="home" class="menu-item">Home</a>
+            <a href="catalog" class="menu-item">Catalog</a>
+            <a href="delivery" class="menu-item">Delivery</a>
+            <a href="blog" class="menu-item">Blog</a>
+            <a href="discount" class="menu-item">Discount</a>
+            <a href="contacts" class="menu-item">Contacts</a>
+        </div>
+    </nav>
+    <h1>Crochet Toys</h1>
+    <img src="img/cotton-dog.jpg" alt="Dog" style="width:100px;">
+</header>
+<main>
+    <section class="toys-for-newborn">
+        <table>
+            <tr>
+                <td>
+        <article>
+            <h3>Teether Fox</h3>
+            <img src="img/teether-fox.jpg" alt="Fox" style="width:100px;">
+        </article>
+                </td>
+                <td>
+        <article>
+            <h3>Teether Frog</h3>
+            <img src="img/teether-frog.jpg" alt="Frog" style="width:100px;">
+        </article>
+                </td>
+                <td>
+        <article>
+            <h3>Teether Squirrel</h3>
+            <img src="img/teether-squirrel.jpg" alt="Squirrel" style="width:100px;">
+        </article>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="plush-toys">
 
-    </main>
-    <footer>
+        <article>
+            <h2>Plush Toys</h2>
+            <table>
+                <tr>
+                    <td>
+                <article>
+                    <h3>Plush Bee</h3>
+                    <img src="img/plush-bee.jpg" alt="Bee" style="width:100px;">
 
-    </footer>
+                </article>
+                    </td>
+                    <td>
+                <article>
+                    <h3>Plush Narval</h3>
+                    <img src="img/plush-narval.jpg" alt="Narval" style="width:100px;">
+
+                </article>
+                    </td>
+                    <td>
+                <article>
+                    <h3>Plush Bunny</h3>
+                    <img src="img/plush-veliur-bunny.jpg" alt="Bunny" style="width:100px;">
+
+                </article>
+                    </td>
+                </tr>
+            </table>
+            </h3>
+        </article>
+    </section>
+
+</main>
+<footer>
+    <form action="/action_page.php" method="get">
+        <label>
+            <input type="text" id="text" name="text">
+        </label>
+        <label>
+            <input type="submit">
+        </label>
+    </form>
+</footer>
 </body>
 </html>
